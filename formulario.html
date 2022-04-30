@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario.html</title>
+</head>
+
+<body>
+    <form action="./formulario.html">
+        <table>
+
+            <th>FORMULÁRIO DE CADASTRO</th>
+
+            <tr>
+                <td><label for="nome">NOME: </label></td>
+                <td><input type="sobrenome" name="sobrenome" id="sobrenome" placeholder="sobrenome"></td>
+            </tr>
+            <tr>
+                <td><label for="sobrenome">SOBRENOME: </label></td>
+                <td><input type="name" name="name" id="name" placeholder="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="endereco"></label>ENDEREÇO: </label></td>
+                <td><textarea id="endereco" name="endereco" rows="5" cols="21"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="disciplinas">DISCIPLINAS: </label></td>
+                <td>
+                    <input type="checkbox">Programação</br>
+                    <input type="checkbox">Lógica</br>
+                    <input type="checkbox">Algoritmos</br>
+                    <input type="checkbox">Banco de dados</br>
+                    <input type="checkbox">Mobile</br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="genero">GÊNERO:</label></td>
+                <td><input type="radio" name="G1" id="M" checked="true">MASCULINO</td>
+                <td><input type="radio" name="G1" id="F">FEMININO</td>
+                <td><input type="radio" name="G1" id="O">OUTRO</td>
+            </tr>
+
+            <tr>
+                <td><label for="idade"></label>IDADE</td>
+                <td>
+                    <select name="idade" id="idade">
+                        <option value="0">0 a 25 anos</option>
+                        <option value="1">26 a 35 anos</option>
+                        <option value="2">36 ou mais</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="picture">FOTO DO PERFIL: </label></td>
+                <td><input type="file" id="picture" name="picture" required="true"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" onclick="alert ('Cadastro realizado com sucesso!')">Cadastrar</button>
+                    <button type="reset">limpar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>

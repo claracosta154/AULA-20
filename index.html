@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+
+<body>
+    <form action="./login.html">
+        <table>
+
+            <tr>
+                <h2><b>FORMULÁRIO DE NOVO USUÁRIO</b></h2>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="email">EMAIL:</label>
+                </td>
+                <td><input type="email" name="email" id="email" placeholder="email" required="true"></td>
+            </tr>
+            <tr>
+                <td><label for="senha">SENHA:</label></td>
+                <td><input type="password" name="senha" id="senha" placeholder="senha" required="true"></td>
+            </tr>
+            <tr>
+                <td><label for="confirmar">CONFIRMAR SENHA:</label></td>
+                <td><input type="password" name="confirmar" id="confirmar" placeholder="confirmar" required="true"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="login" name="login" value="confirmar"
+                        onclick="document.location='login.html'">
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
